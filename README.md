@@ -17,7 +17,7 @@ Make sure you have Python 3.x installed on your machine.
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your_username/course-timetable-app.git
+   git clone https://github.com/aflah02/IIITD-TT-Builder.git
    cd course-timetable-app
    ```
 
