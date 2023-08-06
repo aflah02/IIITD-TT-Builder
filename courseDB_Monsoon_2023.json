@@ -1,0 +1,387 @@
+{
+    "CN (Sec A)": {
+        "Slots": ["Slot4"],
+        "Room": "A006",
+        "Tutorial": {
+            "Slot": "LunchSlot-1-3",
+            "Room": "C01,C11"
+        }
+    },
+    "CN (Sec B)": {
+        "Slots": ["Slot4"],
+        "Room": "C21"
+    },
+    "BML": {
+        "Slots": ["Slot4"],
+        "Room": "C03"
+    },
+    "WSI": {
+        "Slots": ["Slot4"],
+        "Room": "C13"
+    },
+    "IDUDA": {
+        "Slots": ["Slot4"],
+        "Room": "C208"
+    },
+    "NDM": {
+        "Slots": ["Slot4"],
+        "Room": "A007"
+    },
+    "MLBA": {
+        "Slots": ["Slot4"],
+        "Room": "C102"
+    },
+    "CMSMR": {
+        "Slots": ["Slot4"],
+        "Room": "C209"
+    },
+    "MAD": {
+        "Slots": ["Slot4"],
+        "Room": "C214"
+    },
+    "RA-II": {
+        "Slots": ["Slot4"],
+        "Room": "C215"
+    },
+    "DMG": {
+        "Slots": ["Slot2"],
+        "Room": "C21"
+    },
+    "QMD": {
+        "Slots": ["Slot2"],
+        "Room": "C215"
+    },
+    "ETB": {
+        "Slots": ["Slot2"],
+        "Room": "C22"
+    },
+    "ME": {
+        "Slots": ["Slot2"],
+        "Room": "A007"
+    },
+    "IAGA": {
+        "Slots": ["Slot2"],
+        "Room": "C208"
+    },
+    "EFD": {
+        "Slots": ["Slot2"],
+        "Room": "C209"
+    },
+    "BioP": {
+        "Slots": ["Slot2"],
+        "Room": "C11"
+    },
+    "ADL": {
+        "Slots": ["Slot2"],
+        "Room": "A006"
+    },
+    "TCOM": {
+        "Slots": ["LunchSlot-2-1"],
+        "Room": "C102"
+    },
+    "OOPD (CB)": {
+        "Slots": ["LunchSlot-2-1"],
+        "Room": "C21"
+    },
+    "OOPD (CSE + ECE)": {
+        "Slots": ["LunchSlot-2-1", "LunchSlot-2-3"],
+        "Room": "C101"
+    },
+    "CGS": {
+        "Slots": ["LunchSlot-2-2"],
+        "Room": "C21"
+    },
+    "EVS": {
+        "Slots": ["LunchSlot-2-4"],
+        "Room": "C102"
+    },
+    "DIP": {
+        "Slots": ["Slot6"],
+        "Room": "C01"
+    },
+    "GA": {
+        "Slots": ["Slot6"],
+        "Room": "C11"
+    },
+    "CBB": {
+        "Slots": ["Slot6"],
+        "Room": "A106"
+    },
+    "NSS1": {
+        "Slots": ["Slot6"],
+        "Room": "C212"
+    },
+    "RL": {
+        "Slots": ["Slot6"],
+        "Room": "C02"
+    },
+    "3DAF": {
+        "Slots": ["Slot6"],
+        "Room": "C24"
+    },
+    "NVP": {
+        "Slots": ["Slot6"],
+        "Room": "B105"
+    },
+    "PST": {
+        "Slots": ["Slot6"],
+        "Room": "C211"
+    },
+    "CI": {
+        "Slots": ["Slot6"],
+        "Room": "C214"
+    },
+    "DVD": {
+        "Slots": ["Slot6"],
+        "Room": "C21"
+    },
+    "FOMB": {
+        "Slots": ["Slot7"],
+        "Room": "C210"
+    },
+    "Beco": {
+        "Slots": ["Slot7"],
+        "Room": "C211"
+    },
+    "DP": {
+        "Slots": ["Slot7"],
+        "Room": "C212"
+    },
+    "AUU": {
+        "Slots": ["Slot7"],
+        "Room": "C213"
+    },
+    "DSP": {
+        "Slots": ["Slot7"],
+        "Room": "C02"
+    },
+    "CmpA": {
+        "Slots": ["Slot7"],
+        "Room": "C13"
+    },
+    "STS": {
+        "Slots": ["Slot7"],
+        "Room": "C11"
+    },
+    "FCS": {
+        "Slots": ["Slot7"],
+        "Room": "A007"
+    },
+    "SOE": {
+        "Slots": ["Slot7"],
+        "Room": "C21"
+    },
+    "SPP": {
+        "Slots": ["Slot7"],
+        "Room": "A006"
+    },
+    "CoMeG": {
+        "Slots": ["Slot1"],
+        "Room": "C03"
+    },
+    "AI": {
+        "Slots": ["Slot1"],
+        "Room": "C102"
+    },
+    "LST": {
+        "Slots": ["Slot1"],
+        "Room": "C13"
+    },
+    "QM": {
+        "Slots": ["Slot1"],
+        "Room": "C22"
+    },
+    "TML": {
+        "Slots": ["Slot1"],
+        "Room": "C208"
+    },
+    "AERM": {
+        "Slots": ["Slot1"],
+        "Room": "C215"
+    },
+    "DAVP": {
+        "Slots": ["Slot1"],
+        "Room": "102 (R&D)"
+    },
+    "WN": {
+        "Slots": ["Slot1"],
+        "Room": "C02"
+    },
+    "FOE": {
+        "Slots": ["Slot5"],
+        "Room": "C02"
+    },
+    "CGAS": {
+        "Slots": ["Slot5"],
+        "Room": "A006"
+    },
+    "IIA": {
+        "Slots": ["Slot5"],
+        "Room": "C11"
+    },
+    "SDOS": {
+        "Slots": ["Slot5"],
+        "Room": "A106"
+    },
+    "G&M": {
+        "Slots": ["Slot5"],
+        "Room": "C21"
+    },
+    "CMOS": {
+        "Slots": ["Slot5"],
+        "Room": "C01"
+    },
+    "SC": {
+        "Slots": ["Slot5"],
+        "Room": "A007"
+    },
+    "FF": {
+        "Slots": ["Slot5"],
+        "Room": "B105"
+    },
+    "ADC": {
+        "Slots": ["Slot5"],
+        "Room": "C12"
+    },
+    "WARDI": {
+        "Slots": ["Slot5"],
+        "Room": "C208"
+    },
+    "G&M": {
+        "Slots": ["Slot5"],
+        "Room": "C213"
+    },
+    "BIP": {
+        "Slots": ["Slot3"],
+        "Room": "B001"
+    },
+    "CM": {
+        "Slots": ["Slot3"],
+        "Room": "A106"
+    },
+    "TDL": {
+        "Slots": ["Slot3"],
+        "Room": "A007"
+    },
+    "SSD": {
+        "Slots": ["Slot3"],
+        "Room": "A006"
+    },
+    "MB": {
+        "Slots": ["Slot3"],
+        "Room": "C02"
+    },
+    "CMM": {
+        "Slots": ["Slot3"],
+        "Room": "C11"
+    },
+    "BAI": {
+        "Slots": ["Slot3"],
+        "Room": "C01"
+    },
+    "TFW": {
+        "Slots": ["Slot3"],
+        "Room": "C21"
+    },
+    "PRP": {
+        "Slots": ["Slot3"],
+        "Room": "C213"
+    },
+    "CG": {
+        "Slots": ["Slot3"],
+        "Room": "C12",
+        "Lab": {
+            "Slot": "LunchSlot-4-5",
+            "Room": ""
+        }
+    },
+    "DFML": {
+        "Slots": ["Slot3"],
+        "Room": "C13",
+        "OnlyOn": "Tuesday"
+    },
+    "NDMA": {
+        "Slots": ["Slot8"],
+        "Room": "C03"
+    },
+    "NB": {
+        "Slots": ["Slot8"],
+        "Room": "C208"
+    },
+    "QCM": {
+        "Slots": ["Slot8"],
+        "Room": "C02"
+    },
+    "IRob": {
+        "Slots": ["Slot8"],
+        "Room": "C210"
+    },
+    "MDG": {
+        "Slots": ["Slot8"],
+        "Room": "C214"
+    },
+    "FSEM": {
+        "Slots": ["Slot8"],
+        "Room": "C22"
+    },
+    "RHPS": {
+        "Slots": ["Slot8"],
+        "Room": "C211"
+    },
+    "ML (A)": {
+        "Slots": ["Slot8"],
+        "Room": "C11",
+        "Tutorial": {
+            "Slot": "LunchSlot-3-5",
+            "Room": "C208,C209,C214,C215,C216,L1,L2,L3,C210,C211"
+        }
+    },
+    "ML (B)": {
+        "Slots": ["Slot8"],
+        "Room": "C01",
+        "Tutorial": {
+            "Slot": "LunchSlot-3-5",
+            "Room": "C208,C209,C214,C215,C216,L1,L2,L3,C210,C211"
+        }
+    },
+    "CA": {
+        "Slots": ["Slot9"],
+        "Room": "C102"
+    },
+    "Chi": {
+        "Slots": ["Slot9"],
+        "Room": "C12"
+    },
+    "USPP": {
+        "Slots": ["Slot9"],
+        "Room": "C11"
+    },
+    "ABIN": {
+        "Slots": ["Slot9"],
+        "Room": "A006"
+    },
+    "UDXR": {
+        "Slots": ["Slot9"],
+        "Room": "C213"
+    },
+    "DPD": {
+        "Slots": ["Slot9"],
+        "Room": "C210"
+    },
+    "FAE": {
+        "Slots": ["Slot9"],
+        "Room": "C212"
+    },
+    "SPA": {
+        "Slots": ["Slot9"],
+        "Room": "A007",
+        "Lab": {
+            "Slot": "LunchSlot-1-4",
+            "Room": "B001, B002, A106, B105"
+        }
+    },
+    "GMT": {
+        "Slots": ["Slot9"],
+        "Room": "C21"
+    }
+}

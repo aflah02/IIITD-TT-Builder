@@ -1,0 +1,67 @@
+{
+    "Slot4": {
+        "Days": ["Monday", "Wednesday"],
+        "StartTime": "9:30 AM",
+        "EndTime": "11:00 AM"
+    },
+    "Slot2": {
+        "Days": ["Monday", "Thursday"],
+        "StartTime": "11:00 AM",
+        "EndTime": "12:30 PM"
+    },
+    "Slot3": {
+        "Days": ["Tuesday", "Thursday"],
+        "StartTime": "3:00 PM",
+        "EndTime": "4:30 PM"
+    },
+    "Slot1": {
+        "Days": ["Tuesday", "Thursday"],
+        "StartTime": "9:30 AM",
+        "EndTime": "11:00 AM"
+    },
+    "Slot6": {
+        "Days": ["Monday", "Wednesday"],
+        "StartTime": "3:00 PM",
+        "EndTime": "4:30 PM"
+    },
+    "Slot5": {
+        "Days": ["Tuesday", "Friday"],
+        "StartTime": "11:00 AM",
+        "EndTime": "12:30 PM"
+    },
+    "Slot8": {
+        "Days": ["Tuesday", "Thursday"],
+        "StartTime": "4:30 PM",
+        "EndTime": "6:00 PM"
+    },
+    "Slot7": {
+        "Days": ["Monday", "Wednesday"],
+        "StartTime": "4:30 PM",
+        "EndTime": "6:00 PM"
+    },
+    "Slot9": {
+        "Days": ["Monday", "Friday"],
+        "StartTime": "11:00 AM, 9:30 AM",
+        "EndTime": "12:30 PM, 11:00 AM"
+    },
+    "LunchSlot-1": {
+        "StartTime": "12:30 PM",
+        "EndTime": "1:30 PM"
+    },
+    "LunchSlot-2": {
+        "StartTime": "1:30 PM",
+        "EndTime": "3:00 PM"
+    },
+    "LunchSlot-3": {
+        "StartTime": "2:00 PM",
+        "EndTime": "3:00 PM"
+    },
+    "LunchSlot-4": {
+        "StartTime": "12:30 PM",
+        "EndTime": "2:00 PM"
+    },
+    "LunchSlot-5": {
+        "StartTime": "12:30 PM",
+        "EndTime": "2:00 PM"
+    }
+}
