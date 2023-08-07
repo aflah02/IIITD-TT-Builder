@@ -2,7 +2,11 @@
 
 The Course Timetable App is a Streamlit web application designed to help students generate personalized timetables based on the courses they are taking. With this app, students can input the courses they are enrolled in, and the app will create a customized timetable for them, displaying the class schedule for each day of the week.
 
-Note: This is still WIP
+Note: The data may be error prone, please report any errors you find and don't blame me if you miss a class because of this app xD
+
+Sample Timetable:
+
+![Sample Timetable](TT.png)
 
 ## Getting Started
 
