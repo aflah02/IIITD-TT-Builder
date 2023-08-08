@@ -298,7 +298,7 @@
     "DFML": {
         "Slots": ["Slot3"],
         "Room": "C13",
-        "OnlyOn": "Tuesday"
+        "OnlyOn": ["Tuesday"]
     },
     "NDMA": {
         "Slots": ["Slot8"],

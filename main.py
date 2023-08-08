@@ -1,16 +1,18 @@
 import plotly.graph_objects as go
 import streamlit as st
 import json
-# light colors
+
 colors = [
-    'red',
-    'blue',
-    'green',
-    'orange',
-    'pink',
-    'cyan',
-    'yellow',
-    'lightgreen',
+    "#F0F8FF", "#FAEBD7", "#00FFFF", "#7FFFD4", "#F0FFFF",
+    "#F5F5DC", "#FFE4C4", "#000000", "#FFEBCD", "#0000FF",
+    "#8A2BE2", "#A52A2A", "#DEB887", "#5F9EA0", "#7FFF00",
+    "#D2691E", "#FF7F50", "#6495ED", "#FFF8DC", "#DC143C",
+    "#00FFFF", "#00008B", "#008B8B", "#B8860B", "#A9A9A9",
+    "#006400", "#BDB76B", "#8B008B", "#556B2F", "#FF8C00",
+    "#9932CC", "#8B0000", "#E9967A", "#8FBC8F", "#483D8B",
+    "#2F4F4F", "#00CED1", "#9400D3", "#FF1493", "#00BFFF",
+    "#696969", "#1E90FF", "#B22222", "#FFFAF0", "#228B22",
+    "#FF00FF", "#DCDCDC", "#F8F8FF", "#FFD700", "#DAA520"
 ]
 
 mem = {}
@@ -74,6 +76,32 @@ def create_gantt_chart(courses):
     # remove legend
     layout.update(showlegend=False)
 
+    # make the x and y axis ticks darker
+    layout.update(
+        xaxis=dict(
+            showline=True,
+            showgrid=False,
+            showticklabels=True,
+            linecolor="rgb(204, 204, 204)",
+            linewidth=2,
+            ticks="outside",
+            tickfont=dict(family="Arial", size=12, color="rgb(82, 82, 82)"),
+        ),
+        yaxis=dict(
+            showgrid=False,
+            zeroline=False,
+            showline=False,
+            showticklabels=True,
+            tickfont=dict(family="Arial", size=12, color="rgb(82, 82, 82)"),
+        ),
+    )
+
+    # make x-axis and y-axis labels bold
+    layout.update(
+        xaxis=dict(titlefont=dict(size=15, color="black", family="Arial, sans-serif")),
+        yaxis=dict(titlefont=dict(size=15, color="black", family="Arial, sans-serif")),
+    )
+
     # Create the figure and plot it
     fig = go.Figure(data=data, layout=layout)
     fig.update_yaxes(autorange="reversed")  # Reverse the order of the y-axis (days of the week)
@@ -98,7 +126,7 @@ courseNames = courseData.keys()
 st.title("Course Timetable")
 
 st.write(
-    "Note: The data may be error prone, please report any errors you find and don't blame me if you miss a class because of this app xD"
+    "Note: The data may be error prone, please report any errors you find and don't blame me if you miss a class because of this app xD. Also, the app does not support tutorials and labs at this point and probably wouldn't ever unless someone else wants to handle that"
 )
 
 st.markdown("This is a simple app to visualize your course timetable. To get started, select your courses from the multi-select box below.")
@@ -155,6 +183,9 @@ for meeting_slot in meeting_slots:
 
 courses = []
 for course in selected_courses:
+    onlyOn = False
+    if "OnlyOn" in courseData[course]:
+        onlyOn = True
     slots = courseData[course]["Slots"]
     room = courseData[course]["Room"]
     for slot in slots:
@@ -165,7 +196,10 @@ for course in selected_courses:
             days = [indexToDay[slotDay]]
             slot = slotName
         else:
-            days = slotsData[slot]["Days"]
+            if not onlyOn:
+                days = slotsData[slot]["Days"]
+            else:
+                days = courseData[course]["OnlyOn"]
         startTimes = slotsData[slot]["StartTime"]
         endTimes = slotsData[slot]["EndTime"]
         if slot == 'Slot9':
@@ -208,6 +242,8 @@ for course in selected_courses:
 
         for i in range(len(days)):
             courses.append({"name": course, "day": days[i], "start_time": startTimes[i], "end_time": endTimes[i], "room": room})
+
+print(courses)
 
 for meeting_slot in meeting_slots:
     courses.append({"name": meeting_slot["name"], "day": meeting_slot["day"], "start_time": meeting_slot["start_time"], "end_time": meeting_slot["end_time"], "room": ""})

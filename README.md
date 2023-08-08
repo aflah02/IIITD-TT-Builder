@@ -36,7 +36,7 @@ Make sure you have Python 3.x installed on your machine.
 1. Run the Streamlit app locally:
 
    ```bash
-   streamlit run app.py
+   streamlit run main.py
    ```
 
 2. The app will open in your default web browser. You can interact with the app through the browser interface.
