@@ -243,8 +243,6 @@ for course in selected_courses:
         for i in range(len(days)):
             courses.append({"name": course, "day": days[i], "start_time": startTimes[i], "end_time": endTimes[i], "room": room})
 
-print(courses)
-
 for meeting_slot in meeting_slots:
     courses.append({"name": meeting_slot["name"], "day": meeting_slot["day"], "start_time": meeting_slot["start_time"], "end_time": meeting_slot["end_time"], "room": ""})
 
