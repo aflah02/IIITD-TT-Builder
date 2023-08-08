@@ -211,6 +211,10 @@
         "Slots": ["Slot5"],
         "Room": "C02"
     },
+    "DSc": {
+        "Slots": ["Slot5"],
+        "Room": "C21"
+    },
     "CGAS": {
         "Slots": ["Slot5"],
         "Room": "A006"
