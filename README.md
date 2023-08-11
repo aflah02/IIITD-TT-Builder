@@ -2,8 +2,8 @@
 
 Contributors:
 
-<a href="https://github.com/aflah02/SemWiseResourcesIIIT/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=aflah02/SemWiseResourcesIIIT" />
+<a href="https://github.com/aflah02/IIITD-TT-Builder/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=aflah02/IIITD-TT-Builder" />
 </a>
 
 The Course Timetable App is a Streamlit web application designed to help students generate personalized timetables based on the courses they are taking. With this app, students can input the courses they are enrolled in, and the app will create a customized timetable for them, displaying the class schedule for each day of the week.
