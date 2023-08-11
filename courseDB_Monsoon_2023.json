@@ -36,7 +36,7 @@
         "Room": "C209"
     },
     "MAD": {
-        "Slots": ["Slot4"],
+        "Slots": ["Slot5"],
         "Room": "C214"
     },
     "RA-II": {
@@ -212,8 +212,8 @@
         "Room": "C02"
     },
     "DSc": {
-        "Slots": ["Slot5"],
-        "Room": "C21"
+        "Slots": ["Slot9"],
+        "Room": "C01"
     },
     "CGAS": {
         "Slots": ["Slot5"],
